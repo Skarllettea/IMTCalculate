@@ -1,0 +1,72 @@
+﻿<Window x:Class="IMTCalculate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IMTCalculate"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="350">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Grid.Column="0" Grid.Row="0" 
+               Content="Пол: "  
+               HorizontalAlignment="Right"
+               VerticalAlignment="Center"/>
+        <ComboBox Grid.Column="1" Grid.Row="0" 
+                  Name="cbGender" 
+                  Height="30" Width="150"
+                  Margin="10,0,0,0"
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Center">
+            <ComboBoxItem Content="Мужской"/>
+            <ComboBoxItem Content="Женский"/>
+        </ComboBox>
+            <Label Grid.Column="0" Grid.Row="1" 
+               Content="Метод расчета: "  
+               HorizontalAlignment="Right"
+               VerticalAlignment="Center"/>
+        <ComboBox Grid.Column="1" Grid.Row="1" 
+                  x:Name="cbMethod" 
+                  Height="30" Width="150"
+                  Margin="10,0,0,0"
+                  Background="Aqua" 
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Center">
+            <ComboBoxItem Content="Devine"/>
+            <ComboBoxItem Content="Robinson"/>
+        </ComboBox>
+
+        <Label Grid.Column="0" Grid.Row="2"
+               Content="Рост в см."  
+               HorizontalAlignment="Right"
+               VerticalAlignment="Center"/>
+        <TextBox  Grid.Column="1" Grid.Row="2" 
+                  Name="tbHeight" 
+                  Height="30" Width="150"
+                  Margin="10,0,0,0"
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Center"/>
+        <Button  Grid.Column="1" Grid.Row="3"
+                 x:Name="btnCalc" 
+                 Height="40" Width="170"
+                 Margin="-20,0,0,0"
+                 HorizontalAlignment="Left"
+                 Background="Green" Foreground="White" 
+                 Content="Расчет ИМТ"
+                 Click="btnCalc_Click"/>
+
+        <Label  Grid.Column="1" Grid.Row="4" 
+                Name="lblIMT"  Foreground="Orange"  
+                FontSize="25" Content="0.00"/>
+    </Grid>
+</Window>

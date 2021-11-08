@@ -1,0 +1,15 @@
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\obj\Debug\IMTCalculate.csprojAssemblyReference.cache
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\obj\Debug\MainWindow.g.cs
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\obj\Debug\App.g.cs
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\obj\Debug\IMTCalculate_MarkupCompile.cache
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\obj\Debug\IMTCalculate_MarkupCompile.lref
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\bin\Debug\IMTCalculate.exe.config
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\bin\Debug\IMTCalculate.exe
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\bin\Debug\IMTCalculate.pdb
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\obj\Debug\MainWindow.baml
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\obj\Debug\IMTCalculate.g.resources
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\obj\Debug\IMTCalculate.Properties.Resources.resources
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\obj\Debug\IMTCalculate.csproj.GenerateResource.cache
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\obj\Debug\IMTCalculate.csproj.CoreCompileInputs.cache
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\obj\Debug\IMTCalculate.exe
+C:\Users\Skarllettea\source\repos\IMTCalculate\IMTCalculate\obj\Debug\IMTCalculate.pdb
